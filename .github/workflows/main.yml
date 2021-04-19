@@ -15,4 +15,4 @@ jobs:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         DISCORD_USERNAME: Github Action By Tai Studio
         DISCORD_AVATAR: https://raw.githubusercontent.com/LeGitHubDeTai/github-to-discord/main/bot.jpg
-      uses: LeGitHubDeTai/github-to-discord@master
+      uses: LeGitHubDeTai/github-to-discord
