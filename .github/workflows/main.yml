@@ -1,8 +1,8 @@
 name: Notification on push
 
 on:
-  schedule:
-    - cron:  '1 * * * *'
+  release:
+    types: [published]
 
 jobs:
   build:
