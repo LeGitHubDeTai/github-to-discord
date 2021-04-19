@@ -24,5 +24,7 @@
   "dependencies": {
     "axios": "0.21.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "dotenv": "8.2.0"
+  }
 }
