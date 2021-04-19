@@ -1,0 +1,30 @@
+{
+  "name": "action-discord",
+  "version": "0.2.0",
+  "description": "GitHub Action that sends a Discord notification.",
+  "private": true,
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ilshidur/actions.git"
+  },
+  "keywords": [
+    "discord",
+    "github",
+    "action"
+  ],
+  "author": "Ilshidur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ilshidur/actions/issues"
+  },
+  "homepage": "https://github.com/Ilshidur/actions#readme",
+  "dependencies": {
+    "axios": "0.21.0"
+  },
+  "devDependencies": {
+    "dotenv": "8.2.0"
+  }
+}
