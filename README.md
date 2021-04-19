@@ -1,4 +1,10 @@
 # github-to-discord
+<img src="https://raw.githubusercontent.com/LeGitHubDeTai/github-to-discord/main/assets/copy%20link.PNG">
+<img src="https://raw.githubusercontent.com/LeGitHubDeTai/github-to-discord/main/assets/create%20new%20webhook%20in%20discord.PNG">
+<img src="https://raw.githubusercontent.com/LeGitHubDeTai/github-to-discord/main/assets/add%20new%20secret.PNG">
+<img src="https://raw.githubusercontent.com/LeGitHubDeTai/github-to-discord/main/assets/copy%20and%20paste%20your%20webhook.PNG">
+<img src="https://raw.githubusercontent.com/LeGitHubDeTai/github-to-discord/main/assets/discord.PNG">
+
 # Use:
 ```
     - name: Discord notification
