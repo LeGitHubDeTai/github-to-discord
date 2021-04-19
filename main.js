@@ -2,7 +2,7 @@ const axios = require('axios');
 const dotenv = require('dotenv');
 dotenv.config();
 
-axios.get(`https://api.github.com/repos/${process.env.GITHUB_REPOSITORY}/releases/tags/v6.0.0`)
+axios.get(`https://api.github.com/repos/${process.env.GITHUB_REPOSITORY}/releases`)
 .then(function (response) {
   // var format = []
 
