@@ -65,7 +65,7 @@ axios.get(`https://api.github.com/repos/${process.env.GITHUB_REPOSITORY}/release
           "icon_url": "https://tai-studio.ml/img/icons/Tai_Studio_discord.png"
         },
         "image": {
-          "url": "https://raw.githubusercontent.com/LeGitHubDeTai/github-to-discord/main/icon.png"
+          "url": null
         },
         "thumbnail": {
           "url": `https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY}/icon.png`
