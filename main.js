@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-axios.get(`https://api.github.com/repos/${process.env.GITHUB_REPOSITORY}/releases`)
+axios.get(`https://api.github.com/repos/${process.env.GITHUB_REPOSITORY}/releases/latest`)
 .then(function (response) {
   // var format = []
 
