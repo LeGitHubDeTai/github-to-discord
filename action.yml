@@ -1,0 +1,9 @@
+name: "Github Release To Discord"
+description: "Send body of Github Release To Discord with Webhook."
+author: "Tai Studio"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: circle
+  color: black
