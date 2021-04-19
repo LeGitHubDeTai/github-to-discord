@@ -5,10 +5,8 @@ on:
     types: [published]
 
 jobs:
-  build:
-
+  sending:
     runs-on: ubuntu-latest
-
     steps:
     - name: Discord notification
       env:
