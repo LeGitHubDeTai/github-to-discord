@@ -1,6 +1,4 @@
 const axios = require('axios');
-const dotenv = require('dotenv');
-dotenv.config();
 
 axios.get(`https://api.github.com/repos/${process.env.GITHUB_REPOSITORY}/releases`)
 .then(function (response) {
