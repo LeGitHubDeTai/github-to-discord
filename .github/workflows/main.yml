@@ -12,9 +12,9 @@ jobs:
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         DISCORD_USERNAME: Tai Studio
-        DISCORD_AVATAR: https://raw.githubusercontent.com/LeGitHubDeTai/github-to-discord/main/icon.png
+        DISCORD_AVATAR: https://raw.githubusercontent.com/LeGitHubDeTai/github-to-discord/main/bot.jpg
         MESSAGE_TITLE: New Version
         MESSAGE_DESCRIPTION: Github Action By Tai Studio
-        MESSAGE_URL: ${{ process.env.GITHUB_REPOSITORY }}
+        MESSAGE_URL: ${{ secrets.DISCORD_WEBHOOK }}
         MESSAGE_COLOR: 5814783
         uses: LeGitHubDeTai/github-to-discord@v1.2.0

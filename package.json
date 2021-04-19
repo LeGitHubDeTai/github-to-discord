@@ -8,23 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ilshidur/actions.git"
+    "url": "git+https://github.com/LeGitHubDeTai/github-to-discord.git"
   },
   "keywords": [
     "discord",
     "github",
     "action"
   ],
-  "author": "Ilshidur",
+  "author": "Tai Studio",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Ilshidur/actions/issues"
+    "url": "https://github.com/LeGitHubDeTai/github-to-discord/issues"
   },
-  "homepage": "https://github.com/Ilshidur/actions#readme",
+  "homepage": "https://github.com/LeGitHubDeTai/github-to-discord#readme",
   "dependencies": {
     "axios": "0.21.1"
   },
-  "devDependencies": {
-    "dotenv": "^8.2.0"
-  }
+  "devDependencies": {}
 }
