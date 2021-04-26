@@ -1,4 +1,29 @@
 # github-to-discord
+<p align="center">
+    <a href="https://tai-studio.ml/">
+        <img src="https://img.shields.io/github/downloads/LeGitHubDeTai/github-to-discord/total">
+        <img src="https://img.shields.io/github/v/release/LeGitHubDeTai/github-to-discord">
+        <img src="https://img.shields.io/website?url=https://tai-studio.ml/">
+        <img src="https://img.shields.io/github/release-date/LeGitHubDeTai/github-to-discord">
+        <img src="https://img.shields.io/github/license/LeGitHubDeTai/github-to-discord">
+     </a>
+     <a href="https://discord.gg/Sd9afX9jNU">
+       <img src="https://img.shields.io/discord/756920945691721759">
+     </a>
+     <br/>
+     <a href="https://www.youtube.com/watch?v=MX3XQ6rgV78">
+       <img src="https://img.shields.io/youtube/views/MX3XQ6rgV78?style=social">
+     </a>
+     <a href="https://github.com/LeGitHubDeTai/">
+       <img src="https://img.shields.io/github/followers/LeGitHubDeTai?style=social">
+     </a>
+     <a href="https://www.youtube.com/channel/UCZiVWB8_UNH4NLzr7XbaI8A">
+       <img src="https://img.shields.io/youtube/channel/subscribers/UCZiVWB8_UNH4NLzr7XbaI8A?style=social">
+     </a>
+     <a href="https://github.com/LeGitHubDeTai/github-to-discord">
+       <img src="https://img.shields.io/github/stars/LeGitHubDeTai/github-to-discord?style=social">
+     </a>
+</p>
 <img src="https://raw.githubusercontent.com/LeGitHubDeTai/github-to-discord/main/assets/copy%20link.PNG">
 <img src="https://raw.githubusercontent.com/LeGitHubDeTai/github-to-discord/main/assets/create%20new%20webhook%20in%20discord.PNG">
 <img src="https://raw.githubusercontent.com/LeGitHubDeTai/github-to-discord/main/assets/add%20new%20secret.PNG">
