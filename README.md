@@ -1,7 +1,6 @@
 # github-to-discord
 <p align="center">
     <a href="https://tai-studio.ml/">
-        <img src="https://img.shields.io/github/downloads/LeGitHubDeTai/github-to-discord/total">
         <img src="https://img.shields.io/github/v/release/LeGitHubDeTai/github-to-discord">
         <img src="https://img.shields.io/website?url=https://tai-studio.ml/">
         <img src="https://img.shields.io/github/release-date/LeGitHubDeTai/github-to-discord">
