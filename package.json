@@ -1,10 +1,10 @@
 {
   "name": "github-to-discord",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "GitHub Action that sends a Discord notification.",
   "private": true,
   "scripts": {
-    "test": "npm test"
+    "test": "node main.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/LeGitHubDeTai/github-to-discord#readme",
   "dependencies": {
-    "axios": "0.21.1"
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "dotenv": "^10.0.0"

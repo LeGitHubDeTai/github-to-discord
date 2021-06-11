@@ -1,4 +1,7 @@
 # github-to-discord
+<p align='center'>
+  <a href="https://buymeacoffee.com/taistudio" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
+</p>
 <p align="center">
     <a href="https://tai-studio.ml/">
         <img src="https://img.shields.io/github/v/release/LeGitHubDeTai/github-to-discord">
