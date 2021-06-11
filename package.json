@@ -1,6 +1,6 @@
 {
   "name": "github-to-discord",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "description": "GitHub Action that sends a Discord notification.",
   "private": true,
   "scripts": {
