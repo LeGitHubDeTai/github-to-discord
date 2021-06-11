@@ -10,8 +10,8 @@
 
 const request = require('request');
 
-var repo = process.env.GITHUB_REPOSITORY || "LeGitHubDeTai/AnimeBack",
-    webhook = process.env.DISCORD_WEBHOOK || "https://discord.com/api/webhooks/852879466564026448/ydSx6cTgR3OByLGbuMR7OKu3rCHkT0ZINz1YjryIq8k1ls8wEpifjs80e0RTMrVVJXKg",
+var repo = process.env.GITHUB_REPOSITORY || "LeGitHubDeTai/github-to-discord",
+    webhook = process.env.DISCORD_WEBHOOK || null,
     username = process.env.DISCORD_USERNAME || "Tai Studio Bot",
     avatar_url = process.env.DISCORD_AVATAR || "https://raw.githubusercontent.com/LeGitHubDeTai/github-to-discord/main/icon.png",
     content =  process.env.CONTENT || null,
