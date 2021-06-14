@@ -70,4 +70,15 @@ jobs:
         MESSAGE_DESCRIPTION: Github Action By Tai Studio
         MESSAGE_URL: https://github.com/LeGitHubDeTai/AnimeBack
         MESSAGE_COLOR: 5814783
+        CONTENT: null
+        MESSAGE_TITLE: "New Version"
+        MESSAGE_DESCRIPTION: "Tai Studio"
+        MESSAGE_URL: 'https://github.com/LeGitHubDeTai/github-to-discord'
+        SECTION_NAME: "ChangeLog"
+        AUTHOR_NAME: "Tai Studio"
+        AUTHOR_URL: "https://tai-studio.ml"
+        AUTHOR_AVATAR: "https://tai-studio.ml/img/icons/Tai_Studio_discord.png"
+        FOOTER_TEXT: "- Tai Studio © 2021 -"
+        FOOTER_URL: "https://tai-studio.ml/img/icons/Tai_Studio_discord.png"
+        IMAGE: null;
 ```
