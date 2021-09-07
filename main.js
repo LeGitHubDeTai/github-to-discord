@@ -95,7 +95,9 @@ request.get(getRepo, function(err, response, body){
 
 
 function name(str,replaceWhat,replaceTo){
-    replaceWhat = replaceWhat.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
-    var re = new RegExp(replaceWhat, 'g');
-    return str.replace(re,replaceTo);
+    if(replaceWhat != null){
+        replaceWhat = replaceWhat.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+        var re = new RegExp(replaceWhat, 'g');
+        return str.replace(re,replaceTo);
+    }
 }
