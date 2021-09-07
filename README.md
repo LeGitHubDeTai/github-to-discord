@@ -82,3 +82,6 @@ jobs:
         FOOTER_URL: "https://tai-studio.ml/img/icons/Tai_Studio_discord.png"
         IMAGE: null;
 ```
+
+# REQUIREMENT:
+THE GITHUB REPO MUST BE IN ``PUBLIC`` MODE
