@@ -34,6 +34,10 @@ var getRepo = {
   }
 }
 request.get(getRepo, function(err, response, body){
+    
+  if(response['body'] == null){
+    tag_name = response['body']['tag_name'];
+  }
   var tag_name = "",
       embed = 
         {
@@ -65,9 +69,6 @@ request.get(getRepo, function(err, response, body){
           "avatar_url": `${avatar_url}`
         };
   
-  if(response['body'] == null){
-    tag_name = response['body']['tag_name'];
-  }
   if(content != null){
     bodyE.content = content;
   }
