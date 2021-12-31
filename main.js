@@ -34,12 +34,13 @@ var getRepo = {
   }
 }
 request.get(getRepo, function(err, response, body){
-    
-  if(response['body'] == null){
+
+  var tag_name = ""
+  if(response['body'] != null){
     tag_name = response['body']['tag_name'];
   }
-  var tag_name = "",
-      embed = 
+
+  var embed =
         {
           "title": `${title} ${tag_name}`,
           "description": `${description}`,
