@@ -23,7 +23,7 @@ var repo = process.env.GITHUB_REPOSITORY || "LeGitHubDeTai/github-to-discord",
     author_name = process.env.AUTHOR_NAME || "Tai Studio",
     author_url = process.env.AUTHOR_URL || "https://tai-studio.ml",
     author_avatar = process.env.AUTHOR_AVATAR || "https://tai-studio.ml/img/icons/Tai_Studio_discord.png",
-    footer_text = process.env.FOOTER_TEXT || "- Tai Studio © 2021 -",
+    footer_text = process.env.FOOTER_TEXT || "- Tai Studio © 2022 -",
     footer_url = process.env.FOOTER_URL || "https://tai-studio.ml/img/icons/Tai_Studio_discord.png",
     image = process.env.IMAGE || null;
 
@@ -36,7 +36,7 @@ var getRepo = {
 request.get(getRepo, function(err, response, body){
 
   var tag_name = ""
-  if(response['body'] != null){
+  if(response['body']['tag_name'] != null){
     tag_name = response['body']['tag_name'];
   }
 
