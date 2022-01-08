@@ -21,10 +21,10 @@ var repo = process.env.GITHUB_REPOSITORY || "LeGitHubDeTai/github-to-discord",
     color = process.env.MESSAGE_COLOR || 5814783,
     section_name = process.env.SECTION_NAME || "ChangeLog",
     author_name = process.env.AUTHOR_NAME || "Tai Studio",
-    author_url = process.env.AUTHOR_URL || "https://tai-studio.ml",
-    author_avatar = process.env.AUTHOR_AVATAR || "https://tai-studio.ml/img/icons/Tai_Studio_discord.png",
+    author_url = process.env.AUTHOR_URL || "https://tai-studio.netlify.app/",
+    author_avatar = process.env.AUTHOR_AVATAR || "https://tai-studio.netlify.app/img/logo/Tai_Studio.png",
     footer_text = process.env.FOOTER_TEXT || "- Tai Studio © 2022 -",
-    footer_url = process.env.FOOTER_URL || "https://tai-studio.ml/img/icons/Tai_Studio_discord.png",
+    footer_url = process.env.FOOTER_URL || "https://tai-studio.netlify.app/img/logo/Tai_Studio.png",
     image = process.env.IMAGE || null;
 
 var getRepo = {
