@@ -35,9 +35,10 @@ var getRepo = {
 }
 request.get(getRepo, function(err, response, body){
 
-  var tag_name = ""
-  if(response['body']['tag_name'] != null){
-    tag_name = response['body']['tag_name'];
+  var tag_name = "";
+  var bodyJson = JSON.parse(response['body']);
+  if(bodyJson.tag_name != null){
+    tag_name = bodyJson.tag_name;
   }
 
   var embed =
