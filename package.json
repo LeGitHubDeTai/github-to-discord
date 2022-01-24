@@ -25,7 +25,7 @@
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "dotenv": "^12.0.4",
+    "dotenv": "^14.2.0",
     "json-schema": ">=0.4.0"
   }
 }
