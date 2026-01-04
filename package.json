@@ -21,11 +21,11 @@
     "url": "https://github.com/LeGitHubDeTai/github-to-discord/issues"
   },
   "homepage": "https://github.com/LeGitHubDeTai/github-to-discord#readme",
-  "dependencies": {
-    "request": "^2.88.2"
-  },
   "devDependencies": {
     "dotenv": "^16.0.3",
     "json-schema": ">=0.4.0"
+  },
+  "dependencies": {
+    "axios": "^1.13.2"
   }
 }
