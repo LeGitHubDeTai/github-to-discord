@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/LeGitHubDeTai/github-to-discord#readme",
   "devDependencies": {
-    "dotenv": "^16.0.3",
+    "dotenv": "^17.2.3",
     "json-schema": ">=0.4.0"
   },
   "dependencies": {
